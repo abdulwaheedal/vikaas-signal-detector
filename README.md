@@ -9,7 +9,7 @@ A hiring pain signal detector that identifies public expressions of genuine hiri
 **Requirements:** Python 3.x, pip
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/abdulwaheedal/vikaas-signal-detector.git
 cd vikaas-signal-detector
 python3 -m venv venv
 source venv/bin/activate
