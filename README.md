@@ -75,7 +75,7 @@ Attempted but both returned malformed feeds at time of build. Left in the source
 
 Highly configurable tracking feeds specifically tuned to 2026 search operators (e.g. `"CHRO hiring challenges 2026"`). This surfaces broader mainstream business coverage.
 
-## Medium Tags (Recruiting & Talent Acquisition)
+### Medium Tags (Recruiting & Talent Acquisition)
 
 It was added to surface first-person practitioner blogs and case studies. These feeds bypass standard WAF blocks and are significantly more likely to contain the "I/we/my team" ownership language required to trigger a high-intent signal.
 
