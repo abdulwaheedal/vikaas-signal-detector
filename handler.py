@@ -65,10 +65,20 @@ def run(mode="demo", min_score=0, fetch_full_text=False):
         entries = fetch_rss_feeds(max_per_feed=10)
 
         if fetch_full_text:
-            print("[handler] Fetching full article text for each entry...")
-            for entry in entries:
-                if entry.get("url"):
-                    entry["article_text"] = fetch_article_text(entry["url"])
+            print("[handler] Processing article text (Full Text or Fallback)...")
+        for entry in entries:
+            # 1. Base Fallback: Combine title and summary
+            fallback_text = f"{entry.get('title', '')} {entry.get('summary', '')}"
+            entry["article_text"] = fallback_text 
+            
+            # 2. Try full text if requested
+            if fetch_full_text and entry.get("url"):
+                full_text = fetch_article_text(entry["url"])
+                # If we successfully bypassed the firewall and got text, overwrite the fallback
+                if full_text and len(full_text.strip()) > 0:
+                    entry["article_text"] = full_text
+                else:
+                    print(f"  -> [Fallback] Blocked by WAF or empty text. Using RSS metadata.")
 
     # Score each entry
     signals = []

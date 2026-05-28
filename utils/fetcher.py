@@ -32,10 +32,24 @@ RSS_SOURCES = [
         "url": "https://news.google.com/rss/search?q=head+of+recruiting+hiring+process+slow&hl=en-US&gl=US&ceid=US:en",
         "credibility_tier": 1,
     },
+    {
+        "name": "Medium - Recruiting",
+        "url": "https://medium.com/feed/tag/recruiting",
+        "credibility_tier": 2,
+    },
+    {
+        "name": "Medium - Talent Acquisition",
+        "url": "https://medium.com/feed/tag/talent-acquisition",
+        "credibility_tier": 2,
+    }
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; signal-detector/1.0)"
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
 }
 
 

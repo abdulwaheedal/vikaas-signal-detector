@@ -1,54 +1,27 @@
 [
   {
-    "company": "Meridian Health",
-    "signal_type": "interview_speed",
-    "source_url": "https://www.linkedin.com/posts/example-chro-post",
+    "company": "Unknown",
+    "signal_type": "time_to_hire_pressure",
+    "source_url": "https://medium.com/@eximiussai/as-we-enter-the-final-stretch-of-the-year-the-pressure-on-talent-acquisition-ta-leaders-reaches-afc6b23682b7?source=rss------talent_acquisition-5",
     "matched_keywords": [
-      "offer acceptance rate",
-      "six week",
-      "interview loop",
-      "q3 hiring",
-      "nine steps"
+      "headcount plan"
     ],
-    "signal_score": 95,
-    "detected_at": "2026-05-28T15:23:25.814147+00:00",
-    "reason": "Author appears to be a executive-level HR decision-maker (matched on: 'chro'). Strong first-person ownership language detected \u2014 author is describing their own situation. Pain themes detected: interview speed, time to hire pressure. High specificity \u2014 author used concrete numbers, timeframes, or named outcomes. Overall: strong signal. Senior author, owns the problem, specific about the pain."
+    "signal_score": 34,
+    "detected_at": "2026-05-28T19:25:11.383256+00:00",
+    "reason": "Author appears to be an HR practitioner \u2014 not a senior decision-maker, but directly in the hiring process. No ownership language detected \u2014 author appears to be reporting on others' pain, not their own. Pain themes detected: time to hire pressure. Moderate specificity \u2014 some concrete detail present. Overall: weak signal. Likely noise \u2014 observer reporting, not decision-maker in pain."
   },
   {
     "company": "Unknown",
     "signal_type": "inconsistent_evaluation",
-    "source_url": "https://www.linkedin.com/posts/example-head-recruiting",
+    "source_url": "https://medium.com/@shaik.yaseen/how-artificial-intelligence-in-recruitment-is-reducing-bad-hires-89b83642b0d3?source=rss------recruiting-5",
     "matched_keywords": [
-      "inconsistent interview",
-      "case question",
-      "hiring quality",
-      "bad hire"
+      "hiring mistake",
+      "bad hire",
+      "wrong hire",
+      "hiring quality"
     ],
-    "signal_score": 59,
-    "detected_at": "2026-05-28T15:23:25.814697+00:00",
-    "reason": "Author appears to be a director-level HR decision-maker (matched on: 'head of recruiting'). Strong first-person ownership language detected \u2014 author is describing their own situation. Pain themes detected: inconsistent evaluation, hiring quality. Moderate specificity \u2014 some concrete detail present. Overall: moderate signal. Worth monitoring but not high-intent."
-  },
-  {
-    "company": "Unknown",
-    "signal_type": "recruiter_overload",
-    "source_url": "https://recruitingdaily.com/example-post",
-    "matched_keywords": [
-      "open reqs",
-      "asked for headcount"
-    ],
-    "signal_score": 56,
-    "detected_at": "2026-05-28T15:23:25.814448+00:00",
-    "reason": "Author appears to be a vp-level HR decision-maker (matched on: 'vp of talent'). Strong first-person ownership language detected \u2014 author is describing their own situation. Pain themes detected: recruiter overload. Moderate specificity \u2014 some concrete detail present. Overall: moderate signal. Worth monitoring but not high-intent."
-  },
-  {
-    "company": "Unknown",
-    "signal_type": "time_to_hire_pressure",
-    "source_url": "https://www.hrdive.com/example-survey",
-    "matched_keywords": [
-      "time-to-hire"
-    ],
-    "signal_score": 28,
-    "detected_at": "2026-05-28T15:23:25.814571+00:00",
-    "reason": "Author appears to be an HR practitioner \u2014 not a senior decision-maker, but directly in the hiring process. No ownership language detected \u2014 author appears to be reporting on others' pain, not their own. Pain themes detected: time to hire pressure. Moderate specificity \u2014 some concrete detail present. Overall: weak signal. Likely noise \u2014 observer reporting, not decision-maker in pain."
+    "signal_score": 18,
+    "detected_at": "2026-05-28T19:25:11.373955+00:00",
+    "reason": "Author role could not be determined. No ownership language detected \u2014 author appears to be reporting on others' pain, not their own. Pain themes detected: inconsistent evaluation, hiring quality. Low specificity \u2014 pain expressed in general terms without measurable detail. Overall: weak signal. Likely noise \u2014 observer reporting, not decision-maker in pain."
   }
 ]
