@@ -18,14 +18,19 @@ RSS_SOURCES = [
         "credibility_tier": 2,
     },
     {
-        "name": "SHRM",
-        "url": "https://www.shrm.org/rss/default.aspx",
-        "credibility_tier": 2,
+        "name": "Google News - CHRO hiring",
+        "url": "https://news.google.com/rss/search?q=CHRO+hiring+challenges+2025&hl=en-US&gl=US&ceid=US:en",
+        "credibility_tier": 1,
     },
     {
-        "name": "ERE Media",
-        "url": "https://www.ere.net/feed/",
-        "credibility_tier": 2,
+        "name": "Google News - VP talent pain",
+        "url": "https://news.google.com/rss/search?q=VP+talent+acquisition+interview+process&hl=en-US&gl=US&ceid=US:en",
+        "credibility_tier": 1,
+    },
+    {
+        "name": "Google News - head of recruiting",
+        "url": "https://news.google.com/rss/search?q=head+of+recruiting+hiring+process+slow&hl=en-US&gl=US&ceid=US:en",
+        "credibility_tier": 1,
     },
 ]
 

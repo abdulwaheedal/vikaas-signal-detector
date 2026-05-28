@@ -4,14 +4,14 @@
     "signal_type": "interview_speed",
     "source_url": "https://www.linkedin.com/posts/example-chro-post",
     "matched_keywords": [
+      "offer acceptance rate",
       "six week",
       "interview loop",
-      "offer acceptance rate",
-      "nine steps",
-      "q3 hiring"
+      "q3 hiring",
+      "nine steps"
     ],
     "signal_score": 95,
-    "detected_at": "2026-05-28T12:10:38.552393+00:00",
+    "detected_at": "2026-05-28T15:23:25.814147+00:00",
     "reason": "Author appears to be a executive-level HR decision-maker (matched on: 'chro'). Strong first-person ownership language detected \u2014 author is describing their own situation. Pain themes detected: interview speed, time to hire pressure. High specificity \u2014 author used concrete numbers, timeframes, or named outcomes. Overall: strong signal. Senior author, owns the problem, specific about the pain."
   },
   {
@@ -19,13 +19,13 @@
     "signal_type": "inconsistent_evaluation",
     "source_url": "https://www.linkedin.com/posts/example-head-recruiting",
     "matched_keywords": [
+      "inconsistent interview",
       "case question",
       "hiring quality",
-      "bad hire",
-      "inconsistent interview"
+      "bad hire"
     ],
     "signal_score": 59,
-    "detected_at": "2026-05-28T12:10:38.553055+00:00",
+    "detected_at": "2026-05-28T15:23:25.814697+00:00",
     "reason": "Author appears to be a director-level HR decision-maker (matched on: 'head of recruiting'). Strong first-person ownership language detected \u2014 author is describing their own situation. Pain themes detected: inconsistent evaluation, hiring quality. Moderate specificity \u2014 some concrete detail present. Overall: moderate signal. Worth monitoring but not high-intent."
   },
   {
@@ -33,11 +33,11 @@
     "signal_type": "recruiter_overload",
     "source_url": "https://recruitingdaily.com/example-post",
     "matched_keywords": [
-      "asked for headcount",
-      "open reqs"
+      "open reqs",
+      "asked for headcount"
     ],
     "signal_score": 56,
-    "detected_at": "2026-05-28T12:10:38.552806+00:00",
+    "detected_at": "2026-05-28T15:23:25.814448+00:00",
     "reason": "Author appears to be a vp-level HR decision-maker (matched on: 'vp of talent'). Strong first-person ownership language detected \u2014 author is describing their own situation. Pain themes detected: recruiter overload. Moderate specificity \u2014 some concrete detail present. Overall: moderate signal. Worth monitoring but not high-intent."
   },
   {
@@ -48,7 +48,7 @@
       "time-to-hire"
     ],
     "signal_score": 28,
-    "detected_at": "2026-05-28T12:10:38.552930+00:00",
+    "detected_at": "2026-05-28T15:23:25.814571+00:00",
     "reason": "Author appears to be an HR practitioner \u2014 not a senior decision-maker, but directly in the hiring process. No ownership language detected \u2014 author appears to be reporting on others' pain, not their own. Pain themes detected: time to hire pressure. Moderate specificity \u2014 some concrete detail present. Overall: weak signal. Likely noise \u2014 observer reporting, not decision-maker in pain."
   }
 ]
